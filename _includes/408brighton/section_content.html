@@ -1,0 +1,16 @@
+<div class="row no-gutters">
+	<div class="col-lg-4 col-md-3"></div>
+	<div class="col-lg-4 col-md-6 col-sm-12 bg-primary">
+		<div class="content-section-heading text-center text-white">
+			<p class="h2 mt-2 mb-2">{{ include.section-heading }}</p>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-3"></div>
+</div>
+<div class="m-5 text-center">
+	<p class="lead mb-3">{{ include.section-content }}</p>
+	
+	{% if include.button-next-id %}
+		<a class="btn btn-secondary btn-lg js-scroll-trigger text-uppercase" href="#{{ include.button-next-id }}">{{ include.button-next-text }}<br/><i class="fas fa-angle-down"></i></a>
+	{% endif %}
+</div>

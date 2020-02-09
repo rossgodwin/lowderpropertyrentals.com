@@ -1,0 +1,74 @@
+
+
+.badge-primary {
+	background-color: #1D809F !important;
+}
+
+.quote::after {
+  content: "\201C";
+  font-size: 60px;
+  font-weight: bold;
+  color: #ecb807;
+}
+
+.content-section {
+  padding-top: 0rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.divider {
+	height: 5px;
+}
+
+.masthead {
+  background: #6ef0e1;  /* fallback colour. Make sure this is just one solid colour. */
+  background: -webkit-linear-gradient(rgba(110, 240, 225, 0.8), rgba(195, 55, 100, 0.8)), url("../../img/408brighton/feature.jpg");
+  background: linear-gradient(rgba(150, 255, 243, .5), rgba(223, 240, 238, 0.8)), url("../../img/408brighton/feature.jpg"); /* The least supported option. */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.masthead h1 {
+  font-size: 3rem !important;
+}
+
+.comfortable {
+  background: -webkit-linear-gradient(rgba(29, 128, 159, 0.8), rgba(255, 255, 255, 0.3)), url("../../img/408brighton/nook2.jpg");
+  background: linear-gradient(to left, rgba(29, 128, 159, 0.8), rgba(255, 255, 255, 0.3)), url("../../img/408brighton/nook2.jpg"); /* The least supported option. */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.spacious {
+  background: -webkit-linear-gradient(rgba(29, 128, 159, 0.8), rgba(255, 255, 255, 0.3)), url("../../img/408brighton/bedroom3_1.jpg");
+  background: linear-gradient(to right, rgba(29, 128, 159, 0.8), rgba(255, 255, 255, 0.3)), url("../../img/408brighton/bedroom3_1.jpg"); /* The least supported option. */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.relaxing {
+  background: -webkit-linear-gradient(rgba(29, 128, 159, 0.8), rgba(255, 255, 255, 0.3)), url("../../img/408brighton/walkway.jpg");
+  background: linear-gradient(to left, rgba(29, 128, 159, 0.8), rgba(255, 255, 255, 0.3)), url("../../img/408brighton/walkway.jpg"); /* The least supported option. */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.amenities {
+  background: -webkit-linear-gradient(rgba(29, 128, 159, 0.8), rgba(255, 255, 255, 0.3)), url("../../img/408brighton/park.jpg");
+  background: linear-gradient(to right, rgba(29, 128, 159, 0.8), rgba(255, 255, 255, 0.3)), url("../../img/408brighton/park.jpg"); /* The least supported option. */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-primary {
+  background-color: #1D809F !important;
+}
+
+
+
+

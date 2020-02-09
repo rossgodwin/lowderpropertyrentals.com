@@ -1,0 +1,29 @@
+<div class="container-fluid">
+	{% include 408brighton/section_top_border.html %}
+	
+	<div class="row no-gutters">
+		<div class="d-none d-md-block">
+			<div class="row no-gutters">
+				<div class="col-md-4">
+					<div class="{{ include.image-class }}" style="height: {{ include.image-pixel-height }}px;"></div>
+					
+					{% include 408brighton/img_caption.html %}
+				</div>
+				<div class="col-md-8">
+					{% include 408brighton/section_content.html %}
+				</div>
+			</div>
+		</div>
+		<div class="d-md-none">
+			<div class="row no-gutters">
+				<div class="col">
+					{% include 408brighton/section_content.html %}
+					
+					<div class="{{ include.image-class }}" style="height: {{ include.image-pixel-height }}px;"></div>
+					
+					{% include 408brighton/img_caption.html %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% if site.lang %}<html lang="{{ site.lang }}">{% else %}<html>{% endif %}
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="{{ site.author }}">
+    <title>{% if page.title %}{{ page.title }} - {% elsif post.title %}{{ post.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ description }}">
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ keywords }}">{% endif %}
+    
+    <link href="{{ site.baseurl }}/assets/css/normalize.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ site.baseurl }}/assets/css/stylish-portfolio.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/css/gallery.css" rel="stylesheet">
+</head>
+
+<body>
+
+{{ content }}
+
+</body>
+
+</html>

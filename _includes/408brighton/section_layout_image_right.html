@@ -1,0 +1,14 @@
+<div class="container-fluid">
+	{% include 408brighton/section_top_border.html %}
+	
+	<div class="row no-gutters">
+		<div class="col-md-8">
+			{% include 408brighton/section_content.html %}
+		</div>
+		<div class="col-md-4">
+			<div class="{{ include.image-class }}" style="height: {{ include.image-pixel-height }}px;"></div>
+			
+			{% include 408brighton/img_caption.html %}
+		</div>
+	</div>
+</div>
