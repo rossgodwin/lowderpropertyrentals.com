@@ -1,7 +1,8 @@
 
 
-.badge-primary {
-	background-color: #1D809F !important;
+.container-fluid {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
 }
 
 .quote::after {
@@ -22,7 +23,7 @@
 
 .masthead {
   background: #6ef0e1;  /* fallback colour. Make sure this is just one solid colour. */
-  background: -webkit-linear-gradient(rgba(110, 240, 225, 0.8), rgba(195, 55, 100, 0.8)), url("../../img/408brighton/feature.jpg");
+  background: -webkit-linear-gradient(rgba(150, 255, 243, .5), rgba(223, 240, 238, 0.8)), url("../../img/408brighton/feature.jpg");
   background: linear-gradient(rgba(150, 255, 243, .5), rgba(223, 240, 238, 0.8)), url("../../img/408brighton/feature.jpg"); /* The least supported option. */
   background-position: center center;
   background-repeat: no-repeat;
@@ -34,16 +35,16 @@
 }
 
 .comfortable {
-  background: -webkit-linear-gradient(rgba(29, 128, 159, 0.8), rgba(255, 255, 255, 0.3)), url("../../img/408brighton/nook2.jpg");
-  background: linear-gradient(to left, rgba(29, 128, 159, 0.8), rgba(255, 255, 255, 0.3)), url("../../img/408brighton/nook2.jpg"); /* The least supported option. */
+  background: -webkit-linear-gradient(rgba(29, 128, 159, 0.8), rgba(255, 255, 255, 0.3)), url("../../img/408brighton/interior/bedroom3_3.jpg");
+  background: linear-gradient(to left, rgba(29, 128, 159, 0.8), rgba(255, 255, 255, 0.3)), url("../../img/408brighton/interior/bedroom3_3.jpg"); /* The least supported option. */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .spacious {
-  background: -webkit-linear-gradient(rgba(29, 128, 159, 0.8), rgba(255, 255, 255, 0.3)), url("../../img/408brighton/bedroom3_1.jpg");
-  background: linear-gradient(to right, rgba(29, 128, 159, 0.8), rgba(255, 255, 255, 0.3)), url("../../img/408brighton/bedroom3_1.jpg"); /* The least supported option. */
+  background: -webkit-linear-gradient(rgba(29, 128, 159, 0.8), rgba(255, 255, 255, 0.3)), url("../../img/408brighton/interior/bedroom3_1.jpg");
+  background: linear-gradient(to right, rgba(29, 128, 159, 0.8), rgba(255, 255, 255, 0.3)), url("../../img/408brighton/interior/bedroom3_1.jpg"); /* The least supported option. */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

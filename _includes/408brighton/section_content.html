@@ -7,10 +7,11 @@
 	</div>
 	<div class="col-lg-4 col-md-3"></div>
 </div>
-<div class="m-5 text-center">
-	<p class="lead mb-3">{{ include.section-content }}</p>
+<div class="mt-5 mb-5 text-center">
+	<p class="d-none d-md-block ml-5 mr-5 lead">{{ include.section-content }}</p>
+	<p class="d-md-none ml-2 mr-2 lead">{{ include.section-content }}</p>
 	
 	{% if include.button-next-id %}
-		<a class="btn btn-secondary btn-lg js-scroll-trigger text-uppercase" href="#{{ include.button-next-id }}">{{ include.button-next-text }}<br/><i class="fas fa-angle-down"></i></a>
+		<a class="mt-3 btn btn-secondary btn-lg js-scroll-trigger text-uppercase" href="#{{ include.button-next-id }}">{{ include.button-next-text }}<br/><i class="fas fa-angle-down"></i></a>
 	{% endif %}
 </div>
