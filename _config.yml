@@ -7,6 +7,10 @@ keywords:
 host: 0.0.0.0 # GitHub will simply ignore this when you push
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lowderpropertyrentals.com" # the base hostname & protocol for your site, e.g. http://example.com
+root_context: 408brighton
+
+instagram_url: https://www.instagram.com/408brighton
+facebook_url: https://www.facebook.com/408brighton
 
 github_username:
 google_analytics_tracking_id:

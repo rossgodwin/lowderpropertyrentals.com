@@ -318,3 +318,51 @@ a:hover, a:focus, a:active {
 .text-secondary {
   color: #ecb807 !important;
 }
+
+hr.separator {
+	border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(236, 184, 7, 0.75), rgba(0, 0, 0, 0));
+}
+
+.connect {
+}
+
+.connect .social-link {
+  display: block;
+  height: 4rem;
+  width: 4rem;
+  line-height: 4.3rem;
+  font-size: 1.5rem;
+  -webkit-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.connect .social-instagram {
+  background-color: #e4405f;
+}
+
+.connect .social-instagram:hover {
+  background-color: #d82c4d;
+  text-decoration: none;
+}
+
+.connect .social-facebook {
+  background-color: #3b5998;
+}
+
+.connect .social-facebook:hover {
+  background-color: #2f4e8f;
+  text-decoration: none;
+}
+
+.connect .social-mail {
+  background-color: #222222;
+}
+
+.connect .social-mail:hover {
+  background-color: #171616;
+  text-decoration: none;
+}
