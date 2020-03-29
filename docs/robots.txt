@@ -5,4 +5,4 @@ User-agent: *
 Disallow: /_drafts/
 Disallow: /_data/
 Disallow: /_test/
-Sitemap: http://0.0.0.0:4000/sitemap.xml
+Sitemap: https://lowderpropertyrentals.com/sitemap.xml
