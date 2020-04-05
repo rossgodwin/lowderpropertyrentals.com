@@ -6,7 +6,7 @@ title: Beach Rental
 <!-- About -->
 <section class="content-section bg-light" id="about">
 	{% include 408brighton/section_layout_basic.html
-		section-heading="What You'll Get"
+		section-heading-text="What You'll Get"
 		section-content="<span class=\"lead\" style=\"font-size: 1.5em;\"><b>Walk out the door and soak up rays on the beach. Lounge by the pool. Or venture to excitement at the Grand Strand.</b></span>
 		<br/><span class=\"quote\"></span><span class=\"lead text-secondary\"><b>Kingston Plantation is a family-centered resort that offers a myriad of <u>amenities</u> and the best of both worlds...</b></span>
 		<p class=\"lead\">The coastal colors of outside are captured inside this <b>spacious</b> 3-bed, 3-bath ocean view condo that offers all the <b>comforts</b> of home. Situated on the 4th floor of beachfront Brighton Towers, this newly renovated property offers beautifully appointed decor. <b>Relax</b> on one of the balconies off the master, living room, or 3rd bedroom. Overlook the spectacular white sandy beach right outside your door. Can sleep up to 10 people with two king-sized beds, two double beds, and a pull-out sofa in the family room. Kingston Plantation offers a myriad of <b>amenities</b> and the best of both worlds...it's minutes from all the action and hundreds of golf courses and attractions; yet, it's on a private beach, with pools, pristine grounds and tranquil settings.</p>"
@@ -29,80 +29,28 @@ title: Beach Rental
 </section>
 
 <!-- Room Options -->
-<!--
 <section class="content-section bg-light" id="options">
 	<div class="container-fluid">
 		{% include 408brighton/section_top_border.html %}
 		
-		<div class="row no-gutters">
-			<div class="col-md-2"></div>
-			<div class="col">
-				<div class="row no-gutters">
-					<div class="col-md-2"></div>
-					<div class="col">
-						<div class="row no-gutters">
-							<div class="col-lg-4 col-md-3"></div>
-							<div class="col-lg-4 col-md-6 col-sm-12 bg-primary">
-								<div class="content-section-heading text-center text-white">
-									<p class="h2 mt-2 mb-2">Room Options</p>
-								</div>
-							</div>
-							<div class="col-lg-4 col-md-3"></div>
-						</div>
-					</div>
-					<div class="col-md-2"></div>
-				</div>
-			</div>
-			<div class="col-md-2"></div>
-		</div>
-		<div class="mt-5 mb-5 text-center">
+		{% include 408brighton/section_heading_text.html section-heading-text="Room Options" %}
+		
+		<div class="mt-5 text-center">
 			<div class="row no-gutters">
-				<div class="col">
+				<div class="col-lg-4">
+					{% include 408brighton/room_option.html image-max-width-px="300" image-filename="floor_plan_3.png" room-option="3 Bedroom" description-items='3 bathrooms,Full size kitchen,2 balconies,2 washer and dryers' %}
 				</div>
-				<div class="col-lg-3">
-					<div class="content-section-heading text-center text-white" style="background-color: #5bbbd9 !important;">
-						<p class="h2 mt-2 mb-2">3 Bedroom</p>
+				<div class="col-lg-4">
+					<div class="d-lg-none col">
+						<hr class="separator">
 					</div>
-					<img class="img-fluid" src="{{ site.baseurl }}/assets/img/408brighton/floor_plan_3.png">
-					<div class="text-left">
-						<ul class="list-styled lead">
-							<li>3 bathrooms</li>
-							<li>Full size kitchen</li>
-							<li>2 balconies</li>
-							<li>2 washer and dryers</li>
-						</ul>
-					</div>
+					{% include 408brighton/room_option.html image-max-width-px="300" image-filename="floor_plan_2.png" room-option="2 Bedroom" description-items='2 bathrooms,Full size kitchen,Large balcony,Washer and dryer' %}
 				</div>
-				<div class="col">
-				</div>
-				<div class="col-lg-3">
-					<div class="content-section-heading text-center text-white" style="background-color: #f3033b !important;">
-						<p class="h2 mt-2 mb-2">2 Bedroom</p>
+				<div class="col-lg-4">
+					<div class="d-lg-none col">
+						<hr class="separator">
 					</div>
-					<img class="img-fluid" src="{{ site.baseurl }}/assets/img/408brighton/floor_plan_2.png">
-					<div class="text-left">
-						<ul class="list-styled lead">
-							<li>2 bathrooms</li>
-							<li>Full size kitchen</li>
-							<li>Large balcony</li>
-							<li>Washer and dryer</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col">
-				</div>
-				<div class="col-lg-3">
-					<div class="content-section-heading text-center text-white" style="background-color: #ba9106 !important;">
-						<p class="h2 mt-2 mb-2">1 Bedroom</p>
-					</div>
-					<img class="img-fluid" src="{{ site.baseurl }}/assets/img/408brighton/floor_plan_1.png">
-					<div class="text-left">
-						<ul class="list-styled lead">
-							<li>Kitchenette</li>
-							<li>Private balcony</li>
-							<li>Washer and dryer</li>
-						</ul>
-					</div>
+					{% include 408brighton/room_option.html image-max-width-px="250" image-filename="floor_plan_1.png" room-option="1 Bedroom" description-items='Bathroom,Kitchenette,Private balcony,Washer and dryer' %}
 				</div>
 				<div class="col">
 				</div>
@@ -110,12 +58,11 @@ title: Beach Rental
 		</div>
 	</div>
 </section>
--->
 
 <!-- Comfortable -->
 <section class="content-section" id="comfortable">
 	{% include 408brighton/section_layout_image_right.html
-		section-heading="Comfortable"
+		section-heading-text="Comfortable"
 		image-class="comfortable"
 		image-caption="Relax and enjoy a page turner in one of two reading nooks."
 		image-pixel-height="400"
@@ -128,7 +75,7 @@ title: Beach Rental
 <!-- Spacious -->
 <section class="content-section bg-light" id="spacious">
 	{% include 408brighton/section_layout_image_left.html
-		section-heading="Spacious"
+		section-heading-text="Spacious"
 		image-class="spacious"
 		image-pixel-height="400"
 		image-caption="King-sized bed"
@@ -141,7 +88,7 @@ title: Beach Rental
 <!-- Relaxing -->
 <section class="content-section" id="relaxing">
 	{% include 408brighton/section_layout_image_right.html
-		section-heading="Relaxing"
+		section-heading-text="Relaxing"
 		image-class="relaxing"
 		image-caption="Stroll leisurely along the peaceful resort trails."
 		image-pixel-height="400"
@@ -154,7 +101,7 @@ title: Beach Rental
 <!-- Amenities -->
 <section class="content-section bg-light" id="amenities">
 	{% include 408brighton/section_layout_image_left.html
-		section-heading="Full of Amenities"
+		section-heading-text="Full of Amenities"
 		image-class="amenities"
 		image-pixel-height="400"
 		image-caption="The water park is directly adjacent to the Brighton."
@@ -183,7 +130,7 @@ title: Beach Rental
 <!-- Attractions -->
 <section class="content-section" id="attractions">
 	{% include 408brighton/section_layout_basic.html
-		section-heading="Things to Do"
+		section-heading-text="Things to Do"
 		section-content="Close or convenient to everything Myrtle Beach has to offer!
 		<div class=\"text-left\">
 			<p class=\"lead\"><span class=\"text-uppercase\"><b>Golf Courses</b></span>: Arcadian Shores Golf Club (1.1 miles), Grande Dunes Golf Club (3.8 miles), World Tour Golf Links (11.8 miles), and many more</p>
@@ -197,7 +144,7 @@ title: Beach Rental
 <!-- Contact -->
 <section class="content-section bg-light" id="contact">
 	{% include 408brighton/section_layout_basic.html
-		section-heading="Contact Us"
+		section-heading-text="Contact Us"
 		section-content="<span class=\"lead\">For pricing and availability contact:
 			<br/>Rinnette Lowder
 			<br/><a href=\"mailto:rlowder@trianglesitedesign.com\">rlowder@trianglesitedesign.com</a>

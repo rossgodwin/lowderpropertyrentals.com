@@ -1,0 +1,5 @@
+<span class="lead text-uppercase"><b>{{ include.room-option }}:</b></span><br/>
+{% assign items = include.description-items | split: ',' %}
+{% for item in items %}
+   <span class="lead">{{ item }}</span><br/>
+{% endfor %}
